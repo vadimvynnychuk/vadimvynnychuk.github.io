@@ -1,0 +1,23 @@
+@keyframes headerTitle {
+    0%{
+        color: #000;
+        margin-bottom: -3.5rem;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -3.5rem;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -3.5rem;
+    }
+}
+
+@keyframes headerSubTitle {
+    from{
+        background-position: -850%;
+    }
+    to{
+        background-position: 850%;
+    }  
+}

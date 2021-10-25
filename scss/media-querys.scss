@@ -1,0 +1,227 @@
+@media screen and (max-width:1261px){
+    .myjob{
+        .slider-wraper{
+            .slide{
+                max-width: 60% !important;
+            }
+            .slider-btn{
+                width: 20% !important;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width:865px){
+
+    .header{
+        .header-menu{
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: auto;
+            right: 0;
+            width: 30%;
+            height: 100vh;
+            flex-direction: column;
+            justify-content:center;
+            background-color: #fff;
+            padding-top: 2rem;
+            transform: translate(100%, 0);
+            transition: all .4s ease-out;
+            z-index: 99;  
+            .heder-menu-item{
+                .header-menu-link{
+                    color: #000;
+                    font-weight: bold;
+                    width: 100%;
+                }
+            }         
+        }
+        .active-menu{
+            transform: translateX(0);
+        }
+        .burger{
+            position: fixed;
+            display: block;
+            top: 4rem;
+            right: 3rem;
+            width: 5rem;
+            height: 5rem;
+            cursor: pointer;
+            overflow: hidden;
+            background-color: #fff;
+            border-radius: 100%;
+            border: #000 solid 2px;
+            z-index: 100;
+            .burger__span{
+                position: absolute;
+                width: 45px;
+                height: 2px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #181818;
+                transition: all .4s ease-out;
+                &:nth-of-type(2){
+                    top: calc(50% - 15px);
+                }
+                &:nth-of-type(3){
+                    top: calc(50% + 17px);
+                }
+            }
+        }
+        .active-burger{
+            .burger__span{
+                &:first-of-type{
+                    transform: translateX(100%);
+                }
+                &:nth-of-type(2){
+                    top: 50%!important;
+                    transform: translate(-50%, -50%) rotate(-45deg) !important;
+                }
+                &:nth-of-type(3){
+                    top: 50%!important;
+                    transform: translate(-50%, -50%) rotate(45deg) !important;
+                }
+            }
+        }
+    }
+
+
+
+    .about-myself{
+        .about-myself_block{
+            .about-myself_description{
+                max-width: 100%;
+                
+            }
+        }
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:724px){
+
+    .skills{
+        .skills-list{
+            max-width: 70% !important;
+        }
+    }
+
+
+    .myjob{
+        .slider-wraper{
+            .slide{
+                max-width: 70% !important;
+                height: 50vh !important;
+            }
+            .slider-btn{
+                width: 15% !important;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:653px){
+
+    .header{
+        .header-menu{
+            width: 45%;
+        }
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (max-width:463px){
+
+    .header{
+        .header-menu{
+            width: 45%;
+            .heder-menu-item{
+                .header-menu-link{
+                    padding: 1.8rem 1rem 1.8rem;
+                }
+            }
+        }
+    }
+
+    .about-myself{
+        .about-myself_block{
+            .about-myself_description{
+                max-width: 100%;
+                
+            }
+            .about-myself_description{
+                padding: 0 !important;
+            }
+        }
+    }
+
+
+
+    .skills{
+        margin-bottom: 10rem !important;
+        .skills-list{
+            max-width: 100% !important;
+        }
+    }
+
+
+
+    .myjob{
+        margin-bottom: 10rem !important;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:400px){
+
+    .header{
+        .burger{
+            top: 2rem;
+            right: 1rem;
+            width: 4.5rem;
+            height: 4.5rem;
+        }
+    }
+
+
+    .about-myself{
+        .photo-block{
+            max-width: 100%;
+            border-radius: none;
+            background-color: black !important;
+            -webkit-box-shadow:none !important;
+            box-shadow: none !important;
+            .photo-img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    
+}
+
+
+
